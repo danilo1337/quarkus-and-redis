@@ -49,18 +49,26 @@ If you want to learn more about building native executables, please consult http
 
 ## Related Guides
 
-- RESTEasy Classic's REST Client ([guide](https://quarkus.io/guides/resteasy-client)): Call REST services
+- RESTEasy Classic JSON-B ([guide](https://quarkus.io/guides/rest-json)): JSON-B serialization support for RESTEasy Classic
+- SmallRye OpenAPI ([guide](https://quarkus.io/guides/openapi-swaggerui)): Document your REST APIs with OpenAPI - comes with Swagger UI
+- RESTEasy Reactive ([guide](https://quarkus.io/guides/resteasy-reactive)): A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.
+- RESTEasy Classic ([guide](https://quarkus.io/guides/resteasy)): REST endpoint framework implementing Jakarta REST and more
 - SmallRye Health ([guide](https://quarkus.io/guides/smallrye-health)): Monitor service health
-- Redis Cache ([guide](https://quarkus.io/guides/cache-redis-reference)): Use Redis as the caching backend
 - Micrometer metrics ([guide](https://quarkus.io/guides/micrometer)): Instrument the runtime and your application with dimensional metrics using Micrometer.
 
 ## Provided Code
 
-### REST Client
+### RESTEasy JAX-RS
 
-Invoke different services through REST with JSON
+Easily start your RESTful Web Services
 
-[Related guide section...](https://quarkus.io/guides/rest-client)
+[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+### RESTEasy Reactive
+
+Easily start your Reactive RESTful Web Services
+
+[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
 
 ### SmallRye Health
 
